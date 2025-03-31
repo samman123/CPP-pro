@@ -3,15 +3,11 @@
 
 int main()
 {
-    std::cout << "Sam Mathis" << std::endl;
-    std::cout << "Sam Mathis" << std::endl;
-    std::cout << "Sam Mathis" << std::endl;
-    std::cout << "Sam Mathis" << std::endl;
-    std::cout << "Sam Mathis" << std::endl;
-    std::cout << "Sam Mathis" << std::endl;
-    std::cout << "Sam Mathis" << std::endl;
-    std::cout << "Sam Mathis" << std::endl;
-    std::cout << "Sam Mathis" << std::endl;
-    std::cout << "Sam Mathis" << std::endl;
+    int first = 2;
+    int second = 3;
+
+    int sum = first + second;
+
+    std::cout << "This is the sum of " << first << " and " << second << ": " << sum << std::endl;
     return 0;
 }
